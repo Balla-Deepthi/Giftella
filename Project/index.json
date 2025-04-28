@@ -1,0 +1,478 @@
+{
+    "Gifts":
+    
+        [{
+          "id": 1,
+          "title": "Blush Bloom Luxury Gift Box",
+          "price": 109.95,
+          "description": "Make her feel extra special this Mother's Day with the Blush Bloom Luxury Gift Box. Elegantly wrapped in soft pastel tones with a graceful pink ribbon and floral accents, this gift box is perfect for presenting heartfelt surprises. ",
+          "category": "Mom Gifts",
+          "image": "https://i.pinimg.com/736x/66/10/61/661061b53ace7dbdfda2c3e21583e46a.jpg"
+         
+        },
+        {
+          "id": 2,
+          "title": "“Mom” Ceramic Mug with Floral Charm",
+          "price": 22.3,
+          "description": "Celebrate her warmth with this elegant “Mom” Ceramic Mug, designed in a lovely blush tone and floral aesthetic. Ideal for her morning coffee or evening tea, it’s more than a mug—it’s a daily reminder of your love. A thoughtful and practical Mother's Day gift that she'll cherish with every sip.",
+          "category": "Mom Gifts",
+          "image": "https://i.pinimg.com/736x/7a/5f/fe/7a5ffe6d92c8df8e6c9dbb4db76975a6.jpg"
+          
+        },
+        {
+          "id": 3,
+          "title": "“Best Mom Ever” Floral Canvas Tote Bag",
+          "price": 55.99,
+          "description": "Surprise your mom with this charming canvas tote bag, featuring a heartfelt “Best Mom Ever” message in a floral design. Spacious and durable, it’s perfect for daily errands, weekend getaways, or simply showing off her supermom status. A trendy, meaningful, and practical Mother’s Day gift she'll love to carry!",
+          "category": "Mom Gifts",
+          "image": "https://i.pinimg.com/736x/1e/f7/72/1ef7720a3f4378bef536f32f0f9feb04.jpg"
+          
+        },
+        {
+          "id": 4,
+          "title": "Mens Casual Slim Fit",
+          "price": 15.99,
+          "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
+          "category": "Mom Gifts",
+          "image": "https://i.pinimg.com/474x/24/9a/3e/249a3ee8c927d1d498f1821c3ffb3a70.jpg"
+          
+        },
+        {
+          "id": 5,
+          "title": "Cozy “Mama” Heart Hoodie – Soft & Stylish Gift for Mom",
+          "price": 695,
+          "description": "Celebrate your mom’s love and warmth with this ultra-soft “Mama” hoodie, accented with a delicate heart print. Ideal for lounging, casual outings, or cool evening walks, it’s a thoughtful and cozy gift that wraps her in comfort while reminding her how loved she is. A perfect pick for Mother's Day!",
+          "category": "Mom Gifts",
+          "image": "https://i.pinimg.com/474x/bb/05/9c/bb059cb2a20e9b1230fabddfd1d9bf63.jpg"
+         
+        },
+        {
+          "id": 6,
+          "title": "Elegant Gold Micropavé Ring – Timeless Sparkle for Mom ",
+          "price": 168,
+          "description": "Let your love shine with this beautifully crafted micropavé gold ring, designed for elegance and simplicity. Its shimmering details and refined shape make it a sophisticated accessory for daily wear or special occasions. A graceful token of appreciation for the queen of your heart—your mom.",
+          "category": "Mom Gifts",
+          "image": "https://i.pinimg.com/474x/30/43/34/304334ae46a06df2357a2d06656cfc27.jpg"
+          
+        },
+        {
+          "id": 7,
+          "title": "Princess-Cut White Gold Promise Ring for Mom",
+          "price": 9.99,
+          "description": "Gift your mom a symbol of love and gratitude with this white gold-plated princess-cut ring. Its sparkling centerpiece and graceful setting embody elegance and warmth. A meaningful piece that adds timeless charm—perfect for celebrating the queen she is this Mother's Day.",
+          "category": "Mom Gifts",
+          "image": "https://i.pinimg.com/474x/53/ea/1c/53ea1c3c2834660fe62417aff6cb221e.jpg"
+          
+        },
+        {
+          "id": 8,
+          "title": "Rustic “Mom” Keepsake Gift Set with Candle & Card",
+          "price": 10.99,
+          "description": "Celebrate your mom’s warmth with this charming rustic-style gift set. Featuring a handcrafted “Mom” wooden decor piece, a soothing scented candle, and a loving message card—this cozy combo is a beautiful way to say “I appreciate you” on Mother's Day.",
+          "category": "Mom Gifts",
+          "image": "https://i.pinimg.com/474x/f1/5c/9c/f15c9c18561f329e05f623031f1c0e77.jpg"
+         
+        },
+        {
+          "id": 9,
+          "title": "Luxury Floral Spa Gift Box for Mom",
+          "price": 64,
+          "description": "Pamper your mom with this elegant floral-themed spa gift box, complete with fragrant bath essentials, a stylish mug, and delicate flower accents. It’s a luxurious way to give her the relaxation and appreciation she truly deserves on Mother’s Day.",
+          "category": "Mom Gifts",
+          "image": "https://i.pinimg.com/474x/35/94/3a/35943a337744dc6f7636695f40c15c80.jpg"
+          
+        },
+        {
+          "id": 10,
+          "title": "Sweet Pink Delight Gift Set for Mom",
+          "price": 109,
+          "description": "Treat your mom to a charming surprise with this pink-inspired gift box, filled with delightful chocolates, fresh roses, and pampering treats. It’s the perfect way to show your love and gratitude with a touch of sweetness and elegance.",
+          "category": "Mom Gifts",
+          "image": "https://i.pinimg.com/474x/51/68/94/516894f26ba388f07242437ef5296250.jpg"
+          
+        },
+        {
+          "id": 11,
+          "title": " I Love You Mom – Keepsake Photo Frame Gift",
+          "price": 109,
+          "description": "Capture your heartfelt message with this elegant photo frame gift that says it all — “I Love You Mom.” A timeless keepsake paired with a delicate bouquet to make your mother feel truly special and cherished.",
+          "category": "Mom Gifts",
+          "image": "https://i.pinimg.com/474x/4b/96/d5/4b96d584fefc287e1ff705432253363e.jpg"
+          
+        },
+        {
+          "id": 12,
+          "title": "Cozy Mother’s Day Gift Box – Mug, Candle & Self-Care Set",
+          "price": 114,
+          "description": "Treat your mom to a moment of peace with this beautifully curated gift box, featuring a warm ceramic mug, soothing candle, and self-care essentials. Perfect for moms who deserve a little pampering and love in a box.",
+          "category": "Mom Gifts",
+          "image": "https://i.pinimg.com/474x/1c/09/a0/1c09a038b81ef0bbdca0101a5d1f9bcc.jpg"
+          
+        },
+        {
+          "id": 13,
+          "title": "Floral Elegance Skincare Gift Set for Mom",
+          "price": 599,
+          "description": "Floral Elegance Skincare Gift Set for Mom",
+          "category": "Mom Gifts",
+          "image": "https://i.pinimg.com/474x/ff/09/17/ff09172b60911662363966889e4dd241.jpg"
+         
+        },
+        {
+          "id": 14,
+          "title": "Sweet Moments Gift Basket for Mom ",
+          "price": 999.99,
+          "description": "Surprise your mom with this adorable basket of joy, featuring a soft teddy, fresh blooms, and delicious treats. A perfect blend of love and sweetness for Mother’s Day.",
+          "category": "Mom Gifts",
+          "image": "https://i.pinimg.com/474x/94/9a/3e/949a3e9045dc767e6d8589f631793683.jpg"
+          
+        },
+        {
+          "id": 15,
+          "title": "Personalized Memory Box for Mom",
+          "price": 56.99,
+          "description": "Celebrate Mother’s Day with a heartfelt touch. This custom gift set includes a photo frame, beautiful flowers, and love-filled notes — capturing memories that last forever.",
+          "category": "Mom Gifts",
+          "image": "https://i.pinimg.com/474x/44/17/08/441708d9f596b3f793ca31350af4ef1a.jpg"
+         
+        },
+        {
+          "id": 16,
+          "title": " Best Mom Ever Floral Gift Box",
+          "price": 29.95,
+          "description": "Treat your mom like royalty with this elegant floral gift box. Complete with pink roses, a heartfelt mug, and sweet indulgences, it’s the perfect way to say “I love you, Mom.” ",
+          "category": "Mom Gifts",
+          "image": "https://i.pinimg.com/474x/71/5c/0d/715c0dbad94221467137e4f627570c94.jpg"
+         
+        },
+        {
+          "id": 17,
+          "title": "Cozy Love Box for Mom",
+          "price": 39.99,
+          "description": "Wrap your mom in comfort with this cozy gift box featuring a soft pink mug, warm fuzzy socks, and a loving message. Perfect for moments of relaxation and showing how much she means to you.",
+          "category": "Mom Gifts",
+          "image": "https://i.pinimg.com/474x/7a/7a/ab/7a7aab48cf24f6b4e4b7ba1392252610.jpg"
+          
+        },
+        {
+          "id": 18,
+          "title": "Elegant Pink & Gold Gift Set for Mom",
+          "price": 9.85,
+          "description": "Celebrate your mom with this chic and graceful gift box that includes a classy mug, soothing candle, and delicate beauty essentials. A perfect pick to pamper the queen of your heart in style. ",
+          "category": "Mom Gifts",
+          "image": "https://i.pinimg.com/474x/c5/99/3d/c5993d8ca5a8a5e0dac74e3a2f0027c0.jpg"
+          
+        },
+        {
+          "id": 19,
+          "title": "Floral Bliss Gift Box for Mom",
+          "price": 7.95,
+          "description": "Brighten your mom’s day with this beautifully curated floral-themed gift box. Complete with a cozy mug, relaxing candle, stylish scrunchie, and luxurious self-care items, it’s a gentle reminder of your love and appreciation. ",
+          "category": "Mom Gifts",
+          "image": "https://i.pinimg.com/474x/f6/0a/be/f60abe12a6fedf5abc28f7ca76b2d622.jpg"
+          
+        },
+        {
+          "id": 20,
+          "title": "Pamper Her Pretty – Mother’s Day Glow Box",
+          "price": 12.99,
+          "description": "Surprise your mom with a colorful box full of love and self-care! Featuring premium skincare goodies, a charming pink mug, floral accents, and more — this set is made to make her feel like the queen she is.",
+          "category": "Mom Gifts",
+          "image": "https://i.pinimg.com/474x/94/86/6b/94866bc40beba0b9b5a745ab32a8883a.jpg"
+          
+        },
+      
+        {
+             "id": 21,
+              "title": "Pamper Her Pretty – Mother’s Day Glow Box",
+              "price": 12.99,
+              "category": "Couple Gifts",
+              "image": "https://i.pinimg.com/736x/a2/03/b4/a203b4af204f133dd16dbe3984654d0d.jpg"
+        },
+        {
+              "id": 22,
+              "title": "Pamper Her Pretty – Mother’s Day Glow Box",
+              "price": 12.99,
+              "category": "Couple Gifts",
+              "image": "https://i.pinimg.com/736x/1a/cc/db/1accdb3d2a02d439df6a0e5074106f41.jpg"
+        },
+        {
+               "id": 23,
+              "title": "Pamper Her Pretty – Mother’s Day Glow Box",
+              "price": 12.99,
+              "category": "Couple Gifts",
+              "image": "https://i.pinimg.com/474x/ea/48/bc/ea48bce0939e3be8cc78f5c7ddf65b47.jpg"
+        },
+        {
+          "id": 24,
+          "title": "Pamper Her Pretty – Mother’s Day Glow Box",
+          "price": 12.99,
+          "category": "Couple Gifts",
+          "image": "https://i.pinimg.com/474x/ec/48/ed/ec48ed5eb646c14be82bfa1eaa02ae41.jpg"
+        },
+        {
+          "id": 25,
+          "title": "Pamper Her Pretty – Mother’s Day Glow Box",
+          "price": 12.99,
+          "category": "Couple Gifts",
+          "image": "https://i.pinimg.com/474x/34/21/7d/34217d53d092cf3dd046e881628262d6.jpg"
+        },
+        {
+          "id": 26,
+          "title": "Pamper Her Pretty – Mother’s Day Glow Box",
+          "price": 12.99,
+          "category": "Couple Gifts",
+          "image": "https://i.pinimg.com/474x/67/af/17/67af1732054c3cca3e85727307e07ce5.jpg"
+        },
+        {
+          "id": 27,
+          "title": "Pamper Her Pretty – Mother’s Day Glow Box",
+          "price": 12.99,
+          "category": "Couple Gifts",
+          "image": "https://i.pinimg.com/474x/81/da/f6/81daf6a20cb54586d75ecfc7010b36d3.jpg"
+        },
+        {
+          "id": 28,
+          "title": "Pamper Her Pretty – Mother’s Day Glow Box",
+          "price": 12.99,
+          "category": "Couple Gifts",
+          "image": "https://i.pinimg.com/474x/76/1a/31/761a31ff2aafb58f050303afc4683a2a.jpg"
+        },
+        {
+          "id": 29,
+          "title": "Pamper Her Pretty – Mother’s Day Glow Box",
+          "price": 12.99,
+          "category": "Couple Gifts",
+          "image": "https://i.pinimg.com/474x/76/1a/31/761a31ff2aafb58f050303afc4683a2a.jpg"
+        },
+        {
+            "id": 30,
+          "title": "Pamper Her Pretty – Mother’s Day Glow Box",
+          "price": 12.99,
+          "category": "Couple Gifts",
+          "image": "https://i.pinimg.com/474x/72/ad/a9/72ada9af04fc8f1053e3c1e7fdbdf43a.jpg"   
+
+        },
+        {
+              "id": 31,
+          "title": "Pamper Her Pretty – Mother’s Day Glow Box",
+          "price": 12.99,
+          "category": "Couple Gifts",
+          "image": "https://i.pinimg.com/474x/d2/6d/f0/d26df05c65d9c89aa825a98ec5f60e89.jpg"
+        },
+        {
+          "id": 32,
+          "title": "Pamper Her Pretty – Mother’s Day Glow Box",
+          "price": 12.99,
+          "category": "Couple Gifts",
+          "image": "https://i.pinimg.com/474x/a9/b4/05/a9b405b9029667e4ef53941a9d97a258.jpg"
+        },
+        {
+          "id": 33,
+          "title": "Pamper Her Pretty – Mother’s Day Glow Box",
+          "price": 12.99,
+          "category": "Couple Gifts",
+          "image": "https://i.pinimg.com/474x/97/b7/5d/97b75db3aa510fc98c3dd9c1d75b5cc0.jpg"
+        },
+        {
+           "id": 34,
+          "title": "Pamper Her Pretty – Mother’s Day Glow Box",
+          "price": 12.99,
+          "category": "Couple Gifts",
+          "image": "https://i.pinimg.com/474x/17/21/b7/1721b7a23c29c53aef4d9b7732d988c3.jpg"
+        },
+        {
+          "id": 35,
+         "title": "Pamper Her Pretty – Mother’s Day Glow Box",
+         "price": 12.99,
+         "category": "Couple Gifts",
+         "image": "https://i.pinimg.com/474x/ef/30/a8/ef30a89c3d9b555ea593a0e3048f015d.jpg21"
+       },
+       {
+        "id": 36,
+       "title": "Pamper Her Pretty – Mother’s Day Glow Box",
+       "price": 12.99,
+       "category": "Couple Gifts",
+       "image": "https://i.pinimg.com/474x/3a/88/59/3a8859f591108eb23ca42204be4cc2d7.jpg"
+       },
+        {
+          "id": 37,
+        "title": "Pamper Her Pretty – Mother’s Day Glow Box",
+        "price": 12.99,
+        "category": "Couple Gifts",
+        "image": "https://i.pinimg.com/474x/f6/db/4a/f6db4ab03d86e9f209af9c47f35225ab.jpg"
+      },
+          {
+            "id": 38,
+          "title": "Pamper Her Pretty – Mother’s Day Glow Box",
+          "price": 12.99,
+          "category": "Couple Gifts",
+          "image": "https://i.pinimg.com/474x/fd/fb/81/fdfb815e3018034b12b96749aa9a8eec.jpg"
+        },
+        {
+          "id": 39,
+        "title": "Pamper Her Pretty – Mother’s Day Glow Box",
+        "price": 12.99,
+        "category": "Couple Gifts",
+        "image": "https://i.pinimg.com/474x/16/a3/49/16a34979b930ede5d241fa840c91ec42.jpg"
+      },
+        {
+          "id": 40,
+        "title": "Pamper Her Pretty – Mother’s Day Glow Box",
+        "price": 12.99,
+        "category": "Couple Gifts",
+        "image": "https://i.pinimg.com/474x/58/a0/7b/58a07bc8e92363d7dd19b3953435998c.jpg"
+      }
+
+      ,
+      
+        {
+          "id": 41,
+        "title": "Pamper Her Pretty – Mother’s Day Glow Box",
+        "price": 12.99,
+        "category": "Art Gifts",
+        "image": "https://i.pinimg.com/474x/f7/86/37/f7863771b8be19db69540cb9f222c5ef.jpg"
+        },
+        {
+          "id": 42,
+        "title": "Pamper Her Pretty – Mother’s Day Glow Box",
+        "price": 12.99,
+        "category": "Art Gifts",
+        "image": "https://i.pinimg.com/474x/0a/00/bf/0a00bf5518dc445ac70224191314c1b1.jpg"
+        },
+        {
+          "id": 43,
+        "title": "Pamper Her Pretty – Mother’s Day Glow Box",
+        "price": 12.99,
+        "category": "Art Gifts",
+        "image": "https://i.pinimg.com/474x/00/4b/3a/004b3afb7505b620e99b9c20821e2e55.jpg"
+        },
+        {
+          "id": 44,
+        "title": "Pamper Her Pretty – Mother’s Day Glow Box",
+        "price": 12.99,
+        "category": "Art Gifts",
+        "image": "https://i.pinimg.com/474x/e1/6f/60/e16f603dc519b99105c96a7e303a938f.jpg"
+        },
+        {
+          "id": 45,
+        "title": "Pamper Her Pretty – Mother’s Day Glow Box",
+        "price": 12.99,
+        "category": "Art Gifts",
+        "image": "https://i.pinimg.com/474x/be/72/3c/be723ca9fbc21aaecd4903b98c82d535.jpg"
+        },
+        {
+          "id": 46,
+        "title": "Pamper Her Pretty – Mother’s Day Glow Box",
+        "price": 12.99,
+        "category": "Art Gifts",
+        "image": "https://i.pinimg.com/474x/8d/bb/65/8dbb65fbfa99a5d6e968f1bb84f223ae.jpg"
+        },
+        {
+          "id": 47,
+        "title": "Pamper Her Pretty – Mother’s Day Glow Box",
+        "price": 12.99,
+        "category": "Art Gifts",
+        "image": "https://i.pinimg.com/474x/03/a2/04/03a20474b52dbe2090a2a9385d578f32.jpg"
+        },
+        {
+          "id": 48,
+        "title": "Pamper Her Pretty – Mother’s Day Glow Box",
+        "price": 12.99,
+        "category": "Art Gifts",
+        "image": "https://i.pinimg.com/474x/2f/cf/ec/2fcfec861196be43672d3dd39c65494d.jpg"
+        },
+        {
+          "id": 49,
+        "title": "Pamper Her Pretty – Mother’s Day Glow Box",
+        "price": 12.99,
+        "category": "Art Gifts",
+        "image": "https://i.pinimg.com/474x/63/78/43/637843405d59d83ee0937d672bda52b1.jpg"
+        },
+        {
+          "id": 50,
+        "title": "Pamper Her Pretty – Mother’s Day Glow Box",
+        "price": 12.99,
+        "category": "Art Gifts",
+        "image": "https://i.pinimg.com/474x/51/18/6e/51186e0521ab28139cdf13cc228babb3.jpg"
+        },
+        {
+          "id": 51,
+        "title": "Pamper Her Pretty – Mother’s Day Glow Box",
+        "price": 12.99,
+        "category": "Art Gifts",
+        "image": "https://i.pinimg.com/474x/97/c9/fd/97c9fd5f4012a3fec4551efa7b389034.jpg"
+        },
+        {
+          "id": 52,
+        "title": "Pamper Her Pretty – Mother’s Day Glow Box",
+        "price": 12.99,
+        "category": "Art Gifts",
+        "image": "https://i.pinimg.com/474x/95/80/76/958076a6dc8215f8a0b90decc890d992.jpg"
+        },
+        {
+          "id": 53,
+        "title": "Pamper Her Pretty – Mother’s Day Glow Box",
+        "price": 12.99,
+        "category": "Art Gifts",
+        "image": "https://i.pinimg.com/474x/95/80/76/958076a6dc8215f8a0b90decc890d992.jpg"
+        },
+        {
+          "id": 54,
+        "title": "Pamper Her Pretty – Mother’s Day Glow Box",
+        "price": 12.99,
+        "category": "Art Gifts",
+        "image": "https://i.pinimg.com/474x/c2/65/d6/c265d6519aaea5746afa61a11c3579e3.jpg"
+        },
+        {
+          "id": 55,
+        "title": "Pamper Her Pretty – Mother’s Day Glow Box",
+        "price": 12.99,
+        "category": "Art Gifts",
+        "image": "https://i.pinimg.com/474x/c2/65/d6/c265d6519aaea5746afa61a11c3579e3.jpg"
+        },
+        {
+          "id": 55,
+        "title": "Pamper Her Pretty – Mother’s Day Glow Box",
+        "price": 12.99,
+        "category": "Art Gifts",
+        "image": "https://i.pinimg.com/474x/e1/46/67/e146678f6db50e3038bb4e5286494cbf.jpg"
+        },
+        {
+          "id": 56,
+        "title": "Pamper Her Pretty – Mother’s Day Glow Box",
+        "price": 12.99,
+        "category": "Art Gifts",
+        "image": "https://i.pinimg.com/474x/c2/65/d6/c265d6519aaea5746afa61a11c3579e3.jpg"
+        },
+        {
+          "id": 57,
+        "title": "Pamper Her Pretty – Mother’s Day Glow Box",
+        "price": 12.99,
+        "category": "Art Gifts",
+        "image": "https://i.pinimg.com/474x/26/6d/17/266d17b16bf5b95740be33d5dd9e6b84.jpg"
+        },
+        {
+          "id": 58,
+        "title": "Pamper Her Pretty – Mother’s Day Glow Box",
+        "price": 12.99,
+        "category": "Art Gifts",
+        "image": "https://i.pinimg.com/474x/6f/e0/44/6fe0440786503df4063108df597f4183.jpg"
+        },
+        {
+          "id": 59,
+        "title": "Pamper Her Pretty – Mother’s Day Glow Box",
+        "price": 12.99,
+        "category": "Art Gifts",
+        "image": "https://i.pinimg.com/474x/00/4b/3a/004b3afb7505b620e99b9c20821e2e55.jpg"
+        },
+        {
+          "id": 60,
+        "title": "Pamper Her Pretty – Mother’s Day Glow Box",
+        "price": 12.99,
+        "category": "Art Gifts",
+        "image": "https://i.pinimg.com/474x/63/78/43/637843405d59d83ee0937d672bda52b1.jpg"
+        }
+      
+      ]
+}

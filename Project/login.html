@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Giftella - Login</title>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
+  <style>
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  position: relative;
+  background-image: url("https://images.unsplash.com/photo-1607083681678-52733140f93a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* Black overlay */
+body::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 0;
+}
+
+.container {
+  position: relative;
+  z-index: 1;
+  border-radius: 12px;
+  padding: 1.5rem;
+  background-color: rgba(255, 255, 255, 0.08); /* More transparent */
+  backdrop-filter: blur(10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  max-width: 350px; /* Decreased width */
+  animation: fadeIn 1s ease-in-out;
+  color: white; /* Better for dark background */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #f45d48;
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  font-size: 1rem;
+  color: #f45d48;
+  margin-bottom: 0.4rem;
+  font-weight: 600;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 0.7rem;
+  margin-bottom: 1rem;
+  border: 2px solid #f45d48;
+  border-radius: 8px;
+  background-color: #fff;
+  font-size: 0.95rem;
+  color: #333;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  outline: none;
+  border-color: #f45d48;
+}
+
+.forgot-password {
+  display: block;
+  text-align: right;
+  font-size: 0.8rem;
+  color: #f45d48;
+  text-decoration: none;
+  margin-bottom: 1rem;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 0.9rem;
+  background-color: #f45d48;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.25s, box-shadow 0.3s;
+}
+
+input[type="submit"]:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(244, 93, 72, 0.3);
+  background-color: #f23d29;
+}
+
+.signin-link {
+  display: block;
+  text-align: center;
+  margin-top: 1rem;
+  color: #6c63ff;
+  font-size: 0.95rem;
+  text-decoration: none;
+}
+
+.signin-link:hover {
+  text-decoration: underline;
+}
+
+.guest-login {
+  display: block;
+  text-align: center;
+  margin-top: 1rem;
+  padding: 0.9rem;
+  background-color: #f45d48;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: transform 0.25s, box-shadow 0.3s;
+}
+
+.guest-login:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(244, 93, 72, 0.4);
+  background-color: #f23d29;
+}
+h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  text-shadow: 0 2px 6px rgba(255, 0, 0, 0.4); /* red glow */
+  margin-bottom: 1.5rem;
+}
+
+
+label {
+  display: block;
+  font-size: 1rem;
+  color: #eeeeee;
+  margin-bottom: 0.4rem;
+  font-weight: 500;
+}
+
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #cc0000;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.95);
+  font-size: 1rem;
+  color: #111;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.7);
+  background-color: #fff;
+}
+
+.forgot-password,
+.signin-link {
+  color: #ff4d4d;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+.forgot-password:hover,
+.signin-link:hover {
+  text-decoration: underline;
+}
+
+
+input[type="submit"],
+.guest-login {
+  background-color: #d94f4f; /* soft cherry red */
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+  border: none;
+  padding: 0.9rem;
+  border-radius: 10px;
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s;
+}
+
+input[type="submit"]:hover,
+.guest-login:hover {
+  background-color: #c74343; /* slightly darker cherry on hover */
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(217, 79, 79, 0.4);
+}
+
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Welcome to Giftella!</h2>
+    <form action="#">
+      <label for="remail">Email Address</label>
+      <input type="text" id="remail" placeholder="Enter your email" required>
+
+      <label for="rpassword">Password</label>
+      <input type="password" id="rpassword" placeholder="Enter your password" required>
+
+      <a href="#" class="forgot-password">Forgot password?</a>
+
+      <input type="submit" value="Log In">
+      <a href="./index.html" class="guest-login">Guest Login</a>
+
+      <a href="./register.html" class="signin-link">Don't have an account? Sign up</a>
+    </form>
+  </div>
+  <script src="./login.js" type="module" defer></script>
+</body>
+</html>
