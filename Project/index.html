@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body>
+    <section class="baground-container">
+       
+        <div class="head-container">
+            <p class="logo">Giftella</p>
+            <div class="details-container">
+                <a href="./index.html">Home</a>
+              
+                <a href="./shop.html">Shop</a>
+               
+                <a href="./login.html">Login</a>
+            </div>
+            <div class="icon-container">
+                <a href="./wishlist.html" class="check-login"><i class="ri-heart-line"></i></a>
+                <a href="./cart.html" class="check-login"><i class="ri-shopping-bag-line cart"></i> </a>
+            </div>
+
+        </div>
+        <div class="text-main-container">
+            <div class="text-container">
+                <p>WELCOME TO GIFTELLA</p>
+                <h1>Let’s Make Thoughtful Gifts a Part of Your Mother’s Day.</h1>
+                <h3>Explore a vibrant collection of heartfelt Mother’s Day gifts that bring love, joy, and elegance to her special day. Discover the perfect way to celebrate every memory, moment, and milestone with gifts that truly speak from the heart.</h3>
+                <a href="./shop.html" class="shop_button">SHOP NOW</a>
+                
+            </div>
+        </div>
+
+    </section>
+    
+   
+    <section class="details">
+        <div class=" item item-1">
+            <p class="number">01</p>
+            
+            <h3>Order Online</h3>
+            
+            
+            <p>Share some details here. This is Flexible section where you can share anything you want.</p>
+        </div>
+        <div class="item item-2">
+            <p class="number">02</p>
+            <h3>Free Shipping</h3>
+            
+            <p>Share some details here. This is Flexible section where you can share anything you want.</p>
+
+        </div>
+        <div class="item item-3">
+            <p class="number">03</p>
+            <h3>Gifted Love</h3>
+            
+            <p>Share meaningful moments. Use this space to tell your story of love through gifts.</p>
+        </div>
+        <div class="item item-4">
+            <p class="number">04</p>
+            <h3>Safe Payment</h3>
+            
+            <p>Share some details here. This is Flexible section where you can share anything you want.</p>
+        </div>
+    </section>
+    <section class="couple-gifts">
+        <div class="cont-1">
+            
+                <img src="./couple1.jpg" alt=""class="arched-img-1" >
+                <img src="./couple2.jpg" alt=""class="arched-img-2">    
+        </div>
+        
+        <div class="couple-content">
+            <p>ABOUT GIFTELLA</p>
+            <h2>Celebrating Love Through Thoughtful Couple Gifts</h2>
+            <p>We believe that the best gifts come from the heart — that’s why our collection is thoughtfully curated to celebrate connection, romance, and shared moments. Whether it’s for anniversaries, date nights, or just because, our gifts are crafted to bring couples closer and make every moment unforgettable.</p>
+            <a href="./couplegifts.html">Shop Now</a>
+        </div>
+
+    </section>
+    <section class="cart-container">
+        <div class="container-baground">
+            <div class="container-details">
+                <p>NEW ARRIVALS</p>
+                <h2>Explore the Freshest Finds at Your Favorite Gift Destination – Giftella!</h2>
+                <p>Share the excitement of our newest arrivals. This is a flexible section where you can highlight special items, offers, or anything you'd love your customers to know.</p>
+            </div>
+        </div>
+            <div class="image-detail-container">
+                <script>
+                var url="https://soapy-tough-cowl.glitch.me/Gifts"
+                let container=document.createElement("div")
+                container.id="container-1"
+                container.className = "product-grid";
+                async function getData()
+                {
+                    let response=await fetch(url)
+                    if(!response.ok)
+                    {
+                        throw new Error("HTTP Error",response.status)
+                    }
+                    let result=await response.json()
+                   
+                    displayData(result)
+                
+                }
+                function displayData(result)
+                {
+                    for(let ele of result)
+                    {
+                        if(ele.id<7)
+                        {
+                            
+                            
+                            let item=document.createElement("div")
+                            item.className = "product-card";
+                            let{image,title,price,id,category}=ele
+                            item.innerHTML=`
+                             <img src="${image}" alt="${title}">
+                             <p class="category">${category}</p>
+                            <h3 class="title">${title}</h3>
+                            <p class="price">₹${price}</p>
+                            <div class="icons">
+                                <a href="#" class="wishlist"><i class="ri-heart-line"></i></a>
+                                <a href="#" class="cart"><i class="ri-shopping-bag-line cart"></i></a>
+                            </div>
+
+                            `
+                           
+                            item.querySelector(".wishlist").addEventListener("click", function (event)
+                            {
+                                event.preventDefault()
+                                let wishlistData=JSON.parse(localStorage.getItem("wishlist"))||[];
+                                let exists = wishlistData.find(product => product.id === id);
+                                if (!exists) {
+                                wishlistData.push({ image, title, price, id, category });
+                                localStorage.setItem("wishlist", JSON.stringify(wishlistData));
+                                alert("Item added to wishlist");
+                            } else {
+                                alert("Item already in wishlist");
+                            }
+                            })
+                            item.querySelector(".cart").addEventListener("click", function (event) {
+                            event.preventDefault();
+                            let cartData = JSON.parse(localStorage.getItem("cart")) || [];
+                            let existingItem = cartData.find(product => product.id === id);
+
+                            if (existingItem) {
+                                existingItem.quantity = (existingItem.quantity || 1) + 1;
+                            } else {
+                                cartData.push({ image, title, price, id, category, quantity: 1 });
+                            }
+
+                            localStorage.setItem("cart", JSON.stringify(cartData));
+                            alert("Item added to cart");
+                        });
+
+                            container.appendChild(item)
+                           
+                           
+                        }
+                    }
+                    document.querySelector(".image-detail-container").appendChild(container);
+                    
+                }
+                
+                getData()
+                   
+                </script>
+            </div>
+        
+    </section>
+    <section class="art-container">
+     <div class="art-cont-1">
+       <h4>Your Artistic Journey Begins Here</h4>
+       <h1>“Discover Our Collection of Timeless Paintings – Let Art Fill Your World with Color and Emotion.”</h1>
+       <a href="./art-gifts.html">SHOP NOW</a>
+     </div>
+     <div class="art-cont-2">
+        <img src="./art-4.jpg" class="img-1" alt="">
+        <img src="./art-5.jpg" class="img-2"alt="">
+     </div>
+    </section>
+    <section class="gift-container">
+        <div class="container-baground">
+            <div class="container-details">
+                <p>NEW ARRIVALS</p>
+                <h2>Explore the Freshest Finds at Your Favorite Gift Destination – Giftella!</h2>
+                <p>Share the excitement of our newest arrivals. This is a flexible section where you can highlight special items, offers, or anything you'd love your customers to know.</p>
+            </div>
+        </div>
+        <div class="gift-cart-container">
+
+        </div>
+        <script>
+            var url="https://soapy-tough-cowl.glitch.me/Gifts"
+            let giftcontainer=document.createElement("div")
+            giftcontainer.id="giftcontainer"
+            giftcontainer.className = "product-grid";
+            async function getGifts()
+                {
+                    let res=await fetch(url)
+
+                    if(!res.ok)
+                    {
+                        throw new Error("HTTP Error",res.status)
+                    }
+                    let gifts=await res.json()
+                    
+                   
+                    displayGifts(gifts)
+                
+                }
+                function displayGifts(gifts)
+                {
+                    
+                    for(let ele of gifts)
+                    {
+                       
+                        if(ele.id>40 && ele.id<47)
+                        {
+                            
+                            
+                            console.log(ele.id)
+                            let item=document.createElement("div")
+                            item.className = "product-card";
+                            let{image,title,price,id,category}=ele
+                            item.innerHTML=`
+                             <img src="${image}" alt="${title}">
+                             <p class="category">${category}</p>
+                            <h3 class="title">${title}</h3>
+                            <p class="price">₹${price}</p>
+                            <div class="icons">
+                                <a href="#" class="wishlist"><i class="ri-heart-line"></i></a>
+                                <a href="#" class="cart"><i class="ri-shopping-bag-line cart"></i></a>
+                            </div>
+
+                            `
+                           
+                            item.querySelector(".wishlist").addEventListener("click", function (event)
+                            {
+                                event.preventDefault()
+                                let wishlistData=JSON.parse(localStorage.getItem("wishlist"))||[];
+                                let exists = wishlistData.find(product => product.id === id);
+                                if (!exists) {
+                                wishlistData.push({ image, title, price, id, category });
+                                localStorage.setItem("wishlist", JSON.stringify(wishlistData));
+                                alert("Item added to wishlist");
+                            } else {
+                                alert("Item already in wishlist");
+                            }
+                            })
+                            item.querySelector(".cart").addEventListener("click", function (event)
+                            {
+                                event.preventDefault()
+                                let cartData=JSON.parse(localStorage.getItem("cart"))||[];
+                                cartData.push({image,title,price,id,category})
+
+                                localStorage.setItem("cart",JSON.stringify(cartData))
+                                alert("data added to cart")
+                            })
+                            giftcontainer.appendChild(item)
+                           
+                           
+                        }
+                    }
+                    document.querySelector(".gift-cart-container").appendChild(giftcontainer);
+                    
+                }
+                getGifts()
+
+        </script>
+
+
+    </section>
+    
+   
+
+    <section class="feedback">
+        <div class="feedback-cont-1">
+           <p>TESTIMONAIL</p>
+           <h1>Hear From Our Happy Customers</h1>
+           <p>Share some details here. This is Flexible section where you can share anything you want.</p>
+        </div>
+        <div class="feedback-cont-2">
+            <div class="con">
+                <span class="rating">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                <p>I've been a loyal customer of Florist for years, and they never cease to amaze me. The flowers are always fresh, the arrangements are stunning, and the service is top-notch.</p>
+                <div class="con-1">
+                    <img src="https://websitedemos.net/flower-shop-04/wp-content/uploads/sites/1414/2023/10/testimonial-skip-01.jpg" class="feedbackimage"alt="">
+                    <div class="con-2">
+                        <p>	
+                            Steve Smith</p>
+                            <p>Wedding Planner</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="con">
+                <span class="rating">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                <p>I've been a loyal customer of Florist for years, and they never cease to amaze me. The flowers are always fresh, the arrangements are stunning, and the service is top-notch.</p>
+                <div class="con-1">
+                    <img src="https://websitedemos.net/flower-shop-04/wp-content/uploads/sites/1414/2023/10/testimonial-skip-01-1.jpg" class="feedbackimage"alt="">
+                    <div class="con-2">
+                        <p>	
+                            Steve Smith</p>
+                            <p>Wedding Planner</p>
+                    </div>
+                </div>
+            </div>
+            <div class="con">
+                <span class="rating">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                <p>I've been a loyal customer of Florist for years, and they never cease to amaze me. The flowers are always fresh, the arrangements are stunning, and the service is top-notch.</p>
+                <div class="con-1">
+                    <img src="https://websitedemos.net/flower-shop-04/wp-content/uploads/sites/1414/2023/10/testimonial-skip-02-1.jpg"class="feedbackimage" alt="">
+                    <div class="con-2">
+                        <p>	
+                            Steve Smith</p>
+                            <p>Wedding Planner</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <section class="footer">
+        <div class="footer-1">
+           <div class="foot1">
+            <h4>GIFTS FOR YOUR LOVED ONES</h4>
+            <p>Welcome to a world of heartfelt gifting, where creativity meets emotion. From thoughtful treasures for mom to unique handmade crafts for your loved ones, discover our passion for creating meaningful moments that last a lifetime.</p>
+            
+
+           </div>
+           <div class="foot2">
+            <h4>Links</h4>
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Shop</a>
+            <a href="">Contact</a>
+            
+           </div>
+           <div class="foot3">
+            <h4>
+                Contact Us
+            </h4>
+            <p>Address: 13 Fifth Avenue, New York 101660</p>
+            <p>Email: contact@info.com</p>
+            <p>Phone: +91 987 654 321</p>
+
+           </div>
+        </div>
+        <div class="footer-2">
+            <div class="copyright">
+                <p>Copyright © 2025  Giftella</p>
+            </div>
+            <div class="socialmedia">
+                <a href="https://www.facebook.com/"><i class="ri-facebook-circle-fill"></i></a>
+                <a href="https://x.com/"><i class="ri-twitter-fill"></i></a>
+                <a href="https://www.instagram.com/"><i class="ri-instagram-fill"></i></a>
+                <a href="https://www.youtube.com/"><i class="ri-youtube-fill"></i></a>
+            </div>
+
+
+        </div>
+    </section>
+   
+   
+    
+    
+    
+        
+    
+
+
+</body>
+</html>
